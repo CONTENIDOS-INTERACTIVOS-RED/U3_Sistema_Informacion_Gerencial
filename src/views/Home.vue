@@ -22,7 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 La unidad explora los Sistemas de Información Gerencial (SIG) como herramientas clave para la gestión empresarial moderna en entornos digitales y competitivos. Se analiza su impacto en la eficiencia, toma de decisiones y ventaja competitiva mediante modelos como las fuerzas de Porter y la cadena de valor digital. También se presentan estrategias de innovación tecnológica, tendencias como la inteligencia artificial, automatización y ciberseguridad, y casos de éxito en implementación de SIG. El enfoque integra tecnología y habilidades humanas para fomentar una transformación digital sostenible, ética y alineada con los objetivos estratégicos de la organización.
+              p.descripcion.mb-4 La Unidad 3 del curso: Sistemas de información gerencial, explora aplicaciones clave como ERP, CRM y herramientas de inteligencia de negocios (BI). Su enfoque está en cómo estas tecnologías optimizan procesos, mejoran la toma de decisiones y aumentan la competitividad organizacional. A través de casos de éxito y metodologías de análisis de datos como Power BI, se promueve una visión práctica y estratégica del uso de sistemas de información. Se abordan factores críticos de implementación, retos de transformación digital, y el papel de la interoperabilidad, destacando la importancia del desarrollo de habilidades técnicas y blandas.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

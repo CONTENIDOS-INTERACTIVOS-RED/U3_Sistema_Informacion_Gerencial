@@ -1,7 +1,8 @@
 export default {
   global: {
-    numeroUnidad: '1',
-    tituloUnidad: 'Organizaciones, Administración y la Empresa en Red',
+    numeroUnidad: '3',
+    tituloUnidad:
+      'Aplicaciones claves y administración de sistemas de información',
   },
   menuPrincipal: {
     menu: [
@@ -15,28 +16,28 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo:
-          'Fundamentos de los Sistemas de Información en el Contexto empresarial',
+        titulo: 'Sistemas de información para la gestión organizacional',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
             titulo:
-              'Introducción a los sistemas de información en los negocios globales',
+              'Aplicaciones empresariales: características e integración en la organización',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
             titulo:
-              'Impacto de los sistemas de información en la eficiencia y competitividad',
+              'CRM y ERP: fundamentos, funcionalidades y beneficios estratégicos',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Tendencias y evolución de la digitalización empresarial ',
+            titulo:
+              'Casos de éxito en la implementación de ERP y CRM en diferentes sectores',
             hash: 't_1_3',
           },
         ],
@@ -45,86 +46,29 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Sistemas de información y ventaja competitiva',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Modelos de fuerzas competitivas y su relación con TI',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'La cadena de valor en la era digital ',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Estrategias empresariales basadas en SI ',
-            hash: 't_2_3',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Sistemas de información para la gestión organizacional',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo:
-              'Aplicaciones empresariales: características e integración en la organización',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo:
-              'CRM y ERP: fundamentos, funcionalidades y beneficios estratégicos',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo:
-              'Casos de éxito en la implementación de ERP y CRM en diferentes sectores',
-            hash: 't_3_3',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
-        numero: '4',
         titulo: 'Estrategias para la implementación de sistemas de información',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '4.1',
+            numero: '2.1',
             titulo:
               'Factores críticos para una implementación efectiva de SI en la empresa',
-            hash: 't_4_1',
+            hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '4.2',
+            numero: '2.2',
             titulo:
               'Retos organizacionales y soluciones en procesos de transformación digital',
             hash: 't_4_2',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '4.3',
+            numero: '2.3',
             titulo:
               'Integración de sistemas en la empresa digital: interoperabilidad y alineación estratégica',
-            hash: 't_4_3',
+            hash: 't_2_3',
           },
         ],
       },
@@ -250,104 +194,104 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Análisis predictivo',
+      termino: 'Análisis de datos',
       significado:
-        'técnica que utiliza datos históricos y algoritmos estadísticos para anticipar comportamientos o resultados futuros.',
+        'proceso de inspección, limpieza y modelado de datos con el objetivo de descubrir información útil.',
     },
     {
-      termino: 'Automatización',
+      termino: 'Análisis de tendencias',
       significado:
-        'proceso mediante el cual se ejecutan tareas repetitivas mediante sistemas tecnológicos sin intervención humana directa.',
+        'identificación de patrones o cambios significativos en los datos a lo largo del tiempo.',
+    },
+    {
+      termino: 'Análisis predictivo',
+      significado:
+        'uso de modelos estadísticos para prever eventos futuros basados en datos históricos.',
     },
     {
       termino: 'Base de datos',
       significado:
-        'conjunto organizado de información que puede ser accedida, gestionada y actualizada fácilmente.',
+        'conjunto de datos organizados que se almacenan y se pueden consultar electrónicamente.',
     },
     {
-      termino: '<em>Benchmarking</em>',
+      termino: 'Big Data',
       significado:
-        'técnica que consiste en comparar procesos o productos con los de otras organizaciones líderes para mejorar el rendimiento.',
+        'grandes volúmenes de datos que no pueden ser tratados por herramientas tradicionales.',
     },
     {
-      termino: '<em>Big Data</em>',
+      termino: 'Business Intelligence',
       significado:
-        'conjunto masivo de datos que requieren herramientas específicas para su almacenamiento, análisis e interpretación.',
+        'conjunto de procesos y herramientas que convierten datos en información útil para la toma de decisiones.',
     },
     {
-      termino: '<em>Business Intelligence</em>',
+      termino: 'Ciclo de vida del dato',
       significado:
-        'conjunto de tecnologías y estrategias que permiten transformar datos en información útil para la toma de decisiones.',
-    },
-    {
-      termino: 'Cadena de valor',
-      significado:
-        'serie de actividades internas de una organización que agregan valor a un producto o servicio desde su concepción hasta su entrega.',
+        'fases por las que pasa un dato desde su creación hasta su eliminación.',
     },
     {
       termino: 'CRM',
       significado:
-        'sistema de gestión de relaciones con los clientes que facilita la fidelización y personalización de la atención.',
+        'sistema que permite gestionar las relaciones y la información de los clientes.',
     },
     {
-      termino: 'Cuadro de mando',
+      termino: 'Dashboard',
       significado:
-        'herramienta visual que permite monitorear indicadores clave de rendimiento (KPI) en tiempo real.',
+        'panel visual que muestra indicadores clave de rendimiento en tiempo real.',
     },
     {
-      termino: 'Datos estructurados',
+      termino: 'Data Mining',
       significado:
-        'información organizada en formatos predefinidos como tablas o bases de datos relacionales.',
+        'proceso de extracción de patrones útiles desde grandes conjuntos de datos.',
+    },
+    {
+      termino: 'Data Warehouse',
+      significado:
+        'almacén centralizado que integra datos provenientes de diversas fuentes para su análisis.',
     },
     {
       termino: 'ERP',
       significado:
-        'sistema de planificación de recursos empresariales que integra y automatiza las operaciones internas de una empresa.',
+        'sistema de planificación de recursos empresariales que integra la información de las distintas áreas de la organización.',
     },
     {
-      termino: 'Gestión del cambio',
+      termino: 'Indicador clave (KPI)',
       significado:
-        'conjunto de prácticas destinadas a preparar y acompañar a las personas ante procesos de transformación organizacional.',
+        'medida que evalúa el desempeño de una actividad o proceso en relación con sus objetivos.',
     },
     {
-      termino: 'Indicadores clave',
+      termino: 'Integración de sistemas',
       significado:
-        'variables medibles que permiten evaluar el progreso hacia objetivos estratégicos definidos.',
+        'conexión y coordinación de sistemas diferentes para que funcionen como uno solo.',
     },
     {
-      termino: 'Innovación tecnológica',
+      termino: 'Inteligencia artificial',
       significado:
-        'aplicación de nuevas tecnologías para transformar procesos, productos o servicios dentro de una organización.',
+        'simulación de procesos de inteligencia humana mediante sistemas computacionales.',
     },
     {
-      termino: 'KPI',
+      termino: 'Interoperabilidad',
       significado:
-        'siglas en inglés de (<em>Key Performance Indicators</em>), métricas utilizadas para evaluar el desempeño de una empresa.',
+        'capacidad de diferentes sistemas para comunicarse y compartir datos de manera efectiva.',
     },
     {
-      termino: '<em>Machine learning</em>',
+      termino: 'Power BI',
       significado:
-        'subcampo de la inteligencia artificial que permite a los sistemas aprender de datos y mejorar su rendimiento sin programación explícita.',
+        'herramienta de Microsoft para la visualización de datos y creación de informes interactivos.',
     },
     {
-      termino: 'Minería de datos',
+      termino: 'Toma de decisiones',
       significado:
-        'proceso de exploración de grandes volúmenes de datos para descubrir patrones y relaciones ocultas.',
-    },
-    {
-      termino: 'Panel de control',
-      significado:
-        'interfaz gráfica que muestra información crítica en tiempo real para facilitar la supervisión y decisiones rápidas.',
-    },
-    {
-      termino: 'Sistema de información',
-      significado:
-        'conjunto de recursos tecnológicos y humanos que capturan, procesan y comunican información útil para la gestión.',
+        'proceso mediante el cual se elige una acción entre varias posibles.',
     },
     {
       termino: 'Transformación digital',
       significado:
-        'cambio estructural en las organizaciones mediante la integración estratégica de tecnologías digitales en todos sus niveles.',
+        'proceso de adopción de tecnologías digitales para mejorar procesos empresariales.',
+    },
+    {
+      termino: 'Visualización de datos',
+      significado:
+        'representación gráfica de información para facilitar su comprensión.',
     },
   ],
 }

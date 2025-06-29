@@ -2,7 +2,7 @@
   .curso-main-container.creditos-vista
     BannerInterno(subTitulo="SÍNTESIS")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      p(data-aos="fade-up").mb-5  Esta unidad introduce al estudiante en el estudio de los sistemas de información gerencial (SIG) como herramientas fundamentales para la transformación estratégica de las organizaciones en entornos globales, competitivos y digitalizados. A través de este recorrido, se analiza cómo la integración de tecnologías emergentes y soluciones basadas en datos fortalece la eficiencia, la toma de decisiones y la capacidad de respuesta de las empresas.
+      p(data-aos="fade-up").mb-5  La Unidad 3 aborda el papel fundamental que desempeñan los sistemas de información gerencial en la competitividad y eficiencia de las organizaciones actuales. 
 
       .row.justify-content-center
         .col-lg-12.mb-5

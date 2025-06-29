@@ -6,13 +6,13 @@
     .row.mb-5
       .col-lg-4.mb-3.mb-lg-0
         .bg-color-1.tarjeta.p-4.h-100(data-aos="fade-left")
-          p(data-aos="fade-left") En un entorno empresarial cada vez más digitalizado, caracterizado por la globalización y el avance acelerado de las tecnologías de la información, comprender el papel de los sistemas de información gerencial (SIG) se vuelve crucial para los futuros administradores. Esta unidad introductoria sitúa al estudiante en el contexto de las organizaciones modernas, donde los SIG no solo apoyan la operación diaria, sino que son herramientas clave para la toma de decisiones estratégicas, la innovación y la competitividad organizacional.
+          p(data-aos="fade-left") En un entorno empresarial cada vez más dinámico y competitivo, la integración de tecnologías emergentes y sistemas de información gerencial es clave para la sostenibilidad y eficiencia organizacional. Esta unidad analiza herramientas como ERP (Enterprise Resource Planning), CRM (Customer Relationship Management) y plataformas de análisis de datos como Power BI, cuyo uso estratégico permite optimizar procesos, mejorar decisiones y fortalecer la ventaja competitiva.
       .col-lg-4.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/intro/1.png" data-aos="zoom-in")
       .col-lg-4.mb-3.mb-lg-0
         .bg-color-2.tarjeta.p-4.h-100(data-aos="fade-left")
-          p(data-aos="fade-left") A lo largo de esta unidad, el estudiante analizará cómo los sistemas de información impactan la gestión empresarial, particularmente en entornos dinámicos que exigen respuestas ágiles y fundamentadas en datos. Se abordarán temas como la evolución de la digitalización empresarial, las estrategias empresariales basadas en tecnologías de la información, y el rol de los SIG en la creación de ventajas competitivas sostenibles. Además, se explorarán modelos como las fuerzas competitivas de Porter, la cadena de valor en la era digital, y casos reales de éxito en la implementación de sistemas de información.
+          p(data-aos="fade-left") El objetivo principal es que el aprendiz aplique principios de administración de sistemas de información para diseñar estrategias empresariales que impacten en la productividad. Se espera que el estudiante pueda desarrollar propuestas ajustadas a contextos reales, evaluar el impacto de aplicaciones empresariales y justificar técnicamente la elección de herramientas analíticas.
     
     .bg-full-width.bg-color-3.mb-5
       .px-4.px-md-5.py-4
@@ -20,5 +20,5 @@
           .col-lg-auto
             img(src="@/assets/curso/intro/2.svg", style="max-width: 90px").mx-auto
           .col-lg
-            p.mb-0 El propósito principal es que el estudiante adquiera una visión estratégica sobre el uso de los sistemas de información como eje articulador de la gestión empresarial contemporánea. Al finalizar esta unidad, estará en capacidad de interpretar casos empresariales donde los SIG transforman la toma de decisiones, comparar modelos estratégicos apalancados en tecnologías digitales, y explicar la relación entre los sistemas de información y la competitividad en distintos sectores económicos.
+            p.mb-0 Para motivar el aprendizaje, se incluyen casos reales de implementación exitosa de ERP y CRM, abordando también visualización de datos y análisis de tendencias. La unidad combina estudio de casos, ejercicios prácticos y análisis crítico. Se espera una participación activa y colaborativa, apoyada en recursos digitales, con base en conocimientos previos de sistemas de información, contabilidad y planeación estratégica.
 </template>
